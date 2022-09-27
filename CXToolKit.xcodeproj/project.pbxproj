@@ -16,6 +16,7 @@
 		567A018928E2EF8D00965B2E /* CXToolKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A018828E2EF8D00965B2E /* CXToolKitTests.swift */; };
 		567A019328E2EF8D00965B2E /* CXToolKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A019228E2EF8D00965B2E /* CXToolKitUITests.swift */; };
 		567A019528E2EF8D00965B2E /* CXToolKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A019428E2EF8D00965B2E /* CXToolKitUITestsLaunchTests.swift */; };
+		567A01A228E2F73600965B2E /* shiyan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A01A128E2F73600965B2E /* shiyan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		567A018E28E2EF8D00965B2E /* CXToolKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXToolKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		567A019228E2EF8D00965B2E /* CXToolKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CXToolKitUITests.swift; sourceTree = "<group>"; };
 		567A019428E2EF8D00965B2E /* CXToolKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CXToolKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		567A01A128E2F73600965B2E /* shiyan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shiyan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				567A017A28E2EF8C00965B2E /* Assets.xcassets */,
 				567A017C28E2EF8C00965B2E /* LaunchScreen.storyboard */,
 				567A017F28E2EF8C00965B2E /* Info.plist */,
+				567A01A128E2F73600965B2E /* shiyan.swift */,
 			);
 			path = CXToolKit;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				567A017628E2EF8C00965B2E /* ViewController.swift in Sources */,
 				567A017228E2EF8C00965B2E /* AppDelegate.swift in Sources */,
 				567A017428E2EF8C00965B2E /* SceneDelegate.swift in Sources */,
+				567A01A228E2F73600965B2E /* shiyan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
