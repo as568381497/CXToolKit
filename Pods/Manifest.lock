@@ -1,16 +1,24 @@
 PODS:
   - Kingfisher (7.2.2)
+  - MJRefresh (3.7.5)
+  - SwiftKeychainWrapper (4.0.1)
 
 DEPENDENCIES:
   - Kingfisher (~> 7.0)
+  - MJRefresh
+  - SwiftKeychainWrapper
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Kingfisher
+    - MJRefresh
+    - SwiftKeychainWrapper
 
 SPEC CHECKSUMS:
   Kingfisher: 184d4d1a8c36666e663caf8e08abe87898595c53
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
 
-PODFILE CHECKSUM: c1dfd438c153c7e37995d5fe904396e39ea50db6
+PODFILE CHECKSUM: 7a8eafe89d2c9d1d0d891fd37b7c2b494705275e
 
 COCOAPODS: 1.11.2

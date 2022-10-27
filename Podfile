@@ -11,7 +11,9 @@ target 'CXToolKit' do
   # Pods for CXToolKit
 
   pod 'Kingfisher', '~> 7.0'
-
+  pod 'MJRefresh'
+  pod 'SwiftKeychainWrapper'
+  
   target 'CXToolKitTests' do
     inherit! :search_paths
     # Pods for testing

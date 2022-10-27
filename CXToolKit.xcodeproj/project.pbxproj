@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		20A7DD54F1902A5E9B5D6879 /* Pods_CXToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669C56B4250B287EB5ECA8CA /* Pods_CXToolKit.framework */; };
+		56159EBE2907E3AF0084275F /* UIColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56159EBD2907E3AF0084275F /* UIColorUtils.swift */; };
+		56161FCC28E6EA3B0053D759 /* UIImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56161FCB28E6EA3B0053D759 /* UIImageUtils.swift */; };
 		567A017228E2EF8C00965B2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A017128E2EF8C00965B2E /* AppDelegate.swift */; };
 		567A017428E2EF8C00965B2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A017328E2EF8C00965B2E /* SceneDelegate.swift */; };
 		567A017628E2EF8C00965B2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A017528E2EF8C00965B2E /* ViewController.swift */; };
@@ -20,6 +22,20 @@
 		567A01AD28E43EC700965B2E /* RadioButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 567A01A928E43EC700965B2E /* RadioButtonCell.xib */; };
 		567A01AF28E43EC700965B2E /* RadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A01AB28E43EC700965B2E /* RadioButtonView.swift */; };
 		567A01B028E43EC700965B2E /* RadioButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A01AC28E43EC700965B2E /* RadioButtonCell.swift */; };
+		56F3F0AD290A548B001C3547 /* NSAttributedStringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0AC290A548B001C3547 /* NSAttributedStringUtils.swift */; };
+		56F3F0AF290A54DD001C3547 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0AE290A54DD001C3547 /* DateUtils.swift */; };
+		56F3F0B1290A5508001C3547 /* DoubleUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0B0290A5508001C3547 /* DoubleUtils.swift */; };
+		56F3F0B3290A5574001C3547 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0B2290A5574001C3547 /* StringUtils.swift */; };
+		56F3F0B5290A5D90001C3547 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0B4290A5D90001C3547 /* ViewUtils.swift */; };
+		56F3F0B7290A6A7F001C3547 /* UIScrollViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0B6290A6A7F001C3547 /* UIScrollViewUtils.swift */; };
+		56F3F0B9290A6C08001C3547 /* UILabelUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0B8290A6C08001C3547 /* UILabelUtils.swift */; };
+		56F3F0BD290A6E0A001C3547 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0BC290A6E0A001C3547 /* BaseViewController.swift */; };
+		56F3F0C1290A6E84001C3547 /* UIViewControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0C0290A6E84001C3547 /* UIViewControllerUtils.swift */; };
+		56F3F0C3290A6FDE001C3547 /* AppAlertInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0C2290A6FDE001C3547 /* AppAlertInputViewController.swift */; };
+		56F3F0C5290A73E7001C3547 /* AppAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0C4290A73E7001C3547 /* AppAlertViewController.swift */; };
+		56F3F0C7290A75BF001C3547 /* UIApplicationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0C6290A75BF001C3547 /* UIApplicationUtils.swift */; };
+		56F3F0C9290A75F6001C3547 /* NSLayoutConstraintUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0C8290A75F6001C3547 /* NSLayoutConstraintUtils.swift */; };
+		56F3F0CC290A7B4A001C3547 /* AppMessageCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0CB290A7B4A001C3547 /* AppMessageCenter.swift */; };
 		6AB27DC3B052100BEDF2506C /* Pods_CXToolKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48403DB51AA408E97AE91AF /* Pods_CXToolKitTests.framework */; };
 		C28CFC57209F2551AC27021A /* Pods_CXToolKit_CXToolKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E36CBC55391E83EC6D5040 /* Pods_CXToolKit_CXToolKitUITests.framework */; };
 /* End PBXBuildFile section */
@@ -47,6 +63,8 @@
 		3643E6A0D6E2B042A41A4248 /* Pods-CXToolKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXToolKitTests.release.xcconfig"; path = "Target Support Files/Pods-CXToolKitTests/Pods-CXToolKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		40E36CBC55391E83EC6D5040 /* Pods_CXToolKit_CXToolKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXToolKit_CXToolKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC65CCF9239ADB7FCEFCF9B /* Pods-CXToolKit-CXToolKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXToolKit-CXToolKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-CXToolKit-CXToolKitUITests/Pods-CXToolKit-CXToolKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		56159EBD2907E3AF0084275F /* UIColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorUtils.swift; sourceTree = "<group>"; };
+		56161FCB28E6EA3B0053D759 /* UIImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageUtils.swift; sourceTree = "<group>"; };
 		567A016E28E2EF8C00965B2E /* CXToolKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXToolKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		567A017128E2EF8C00965B2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		567A017328E2EF8C00965B2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +81,20 @@
 		567A01A928E43EC700965B2E /* RadioButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadioButtonCell.xib; sourceTree = "<group>"; };
 		567A01AB28E43EC700965B2E /* RadioButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButtonView.swift; sourceTree = "<group>"; };
 		567A01AC28E43EC700965B2E /* RadioButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButtonCell.swift; sourceTree = "<group>"; };
+		56F3F0AC290A548B001C3547 /* NSAttributedStringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringUtils.swift; sourceTree = "<group>"; };
+		56F3F0AE290A54DD001C3547 /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		56F3F0B0290A5508001C3547 /* DoubleUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleUtils.swift; sourceTree = "<group>"; };
+		56F3F0B2290A5574001C3547 /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		56F3F0B4290A5D90001C3547 /* ViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
+		56F3F0B6290A6A7F001C3547 /* UIScrollViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewUtils.swift; sourceTree = "<group>"; };
+		56F3F0B8290A6C08001C3547 /* UILabelUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelUtils.swift; sourceTree = "<group>"; };
+		56F3F0BC290A6E0A001C3547 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		56F3F0C0290A6E84001C3547 /* UIViewControllerUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerUtils.swift; sourceTree = "<group>"; };
+		56F3F0C2290A6FDE001C3547 /* AppAlertInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlertInputViewController.swift; sourceTree = "<group>"; };
+		56F3F0C4290A73E7001C3547 /* AppAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlertViewController.swift; sourceTree = "<group>"; };
+		56F3F0C6290A75BF001C3547 /* UIApplicationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationUtils.swift; sourceTree = "<group>"; };
+		56F3F0C8290A75F6001C3547 /* NSLayoutConstraintUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintUtils.swift; sourceTree = "<group>"; };
+		56F3F0CB290A7B4A001C3547 /* AppMessageCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMessageCenter.swift; sourceTree = "<group>"; };
 		669C56B4250B287EB5ECA8CA /* Pods_CXToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE846A8819A3ABD47821EC0 /* Pods-CXToolKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXToolKit.debug.xcconfig"; path = "Target Support Files/Pods-CXToolKit/Pods-CXToolKit.debug.xcconfig"; sourceTree = "<group>"; };
 		CFC4DC7995E7B47E7B060EB7 /* Pods-CXToolKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXToolKitTests.debug.xcconfig"; path = "Target Support Files/Pods-CXToolKitTests/Pods-CXToolKitTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,6 +129,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56161FC928E6E9AB0053D759 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				56F3F0BF290A6E58001C3547 /* Page */,
+				56F3F0BE290A6E4E001C3547 /* View */,
+				56159EBD2907E3AF0084275F /* UIColorUtils.swift */,
+				56F3F0AC290A548B001C3547 /* NSAttributedStringUtils.swift */,
+				56F3F0AE290A54DD001C3547 /* DateUtils.swift */,
+				56F3F0B0290A5508001C3547 /* DoubleUtils.swift */,
+				56F3F0B2290A5574001C3547 /* StringUtils.swift */,
+				56F3F0C6290A75BF001C3547 /* UIApplicationUtils.swift */,
+				56F3F0C8290A75F6001C3547 /* NSLayoutConstraintUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		567A016528E2EF8C00965B2E = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +170,9 @@
 		567A017028E2EF8C00965B2E /* CXToolKit */ = {
 			isa = PBXGroup;
 			children = (
+				56F3F0CA290A7B2A001C3547 /* Center */,
+				56F3F0BA290A6DE7001C3547 /* Pages */,
+				56161FC928E6E9AB0053D759 /* Utils */,
 				567A01A328E43C5300965B2E /* Component */,
 				567A017128E2EF8C00965B2E /* AppDelegate.swift */,
 				567A017328E2EF8C00965B2E /* SceneDelegate.swift */,
@@ -169,6 +220,51 @@
 			path = RadioButtonView;
 			sourceTree = "<group>";
 		};
+		56F3F0BA290A6DE7001C3547 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				56F3F0BB290A6DF2001C3547 /* Base */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		56F3F0BB290A6DF2001C3547 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				56F3F0BC290A6E0A001C3547 /* BaseViewController.swift */,
+				56F3F0C2290A6FDE001C3547 /* AppAlertInputViewController.swift */,
+				56F3F0C4290A73E7001C3547 /* AppAlertViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		56F3F0BE290A6E4E001C3547 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56F3F0B8290A6C08001C3547 /* UILabelUtils.swift */,
+				56F3F0B6290A6A7F001C3547 /* UIScrollViewUtils.swift */,
+				56F3F0B4290A5D90001C3547 /* ViewUtils.swift */,
+				56161FCB28E6EA3B0053D759 /* UIImageUtils.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56F3F0BF290A6E58001C3547 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				56F3F0C0290A6E84001C3547 /* UIViewControllerUtils.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		56F3F0CA290A7B2A001C3547 /* Center */ = {
+			isa = PBXGroup;
+			children = (
+				56F3F0CB290A7B4A001C3547 /* AppMessageCenter.swift */,
+			);
+			path = Center;
+			sourceTree = "<group>";
+		};
 		6B3C434CCD1B07861B254F0E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,7 +285,6 @@
 				CFC4DC7995E7B47E7B060EB7 /* Pods-CXToolKitTests.debug.xcconfig */,
 				3643E6A0D6E2B042A41A4248 /* Pods-CXToolKitTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -433,11 +528,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56159EBE2907E3AF0084275F /* UIColorUtils.swift in Sources */,
+				56F3F0AD290A548B001C3547 /* NSAttributedStringUtils.swift in Sources */,
+				56F3F0B5290A5D90001C3547 /* ViewUtils.swift in Sources */,
 				567A017628E2EF8C00965B2E /* ViewController.swift in Sources */,
+				56F3F0C1290A6E84001C3547 /* UIViewControllerUtils.swift in Sources */,
+				56F3F0B9290A6C08001C3547 /* UILabelUtils.swift in Sources */,
+				56F3F0C3290A6FDE001C3547 /* AppAlertInputViewController.swift in Sources */,
+				56F3F0C7290A75BF001C3547 /* UIApplicationUtils.swift in Sources */,
+				56F3F0BD290A6E0A001C3547 /* BaseViewController.swift in Sources */,
+				56F3F0C9290A75F6001C3547 /* NSLayoutConstraintUtils.swift in Sources */,
 				567A017228E2EF8C00965B2E /* AppDelegate.swift in Sources */,
+				56F3F0C5290A73E7001C3547 /* AppAlertViewController.swift in Sources */,
+				56F3F0AF290A54DD001C3547 /* DateUtils.swift in Sources */,
+				56F3F0B7290A6A7F001C3547 /* UIScrollViewUtils.swift in Sources */,
 				567A01AF28E43EC700965B2E /* RadioButtonView.swift in Sources */,
 				567A017428E2EF8C00965B2E /* SceneDelegate.swift in Sources */,
 				567A01B028E43EC700965B2E /* RadioButtonCell.swift in Sources */,
+				56F3F0B3290A5574001C3547 /* StringUtils.swift in Sources */,
+				56F3F0B1290A5508001C3547 /* DoubleUtils.swift in Sources */,
+				56F3F0CC290A7B4A001C3547 /* AppMessageCenter.swift in Sources */,
+				56161FCC28E6EA3B0053D759 /* UIImageUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,7 +654,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -597,7 +708,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -623,7 +734,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -653,7 +764,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
