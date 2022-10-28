@@ -30,12 +30,12 @@ extension Double {
         return String(format: "%.1f ", distance.value) + "英里"
     }
     
-    func priceStr(_ count:Int = 1) -> String {
+    func priceStr(_ count:Int = 1 ,monetaryUnit:String = "£") -> String {
         let decimal = NSNumber(value: self * Double(count))
         let formatter = NumberFormatter()
         formatter.numberStyle = .decimal
-        formatter.positivePrefix = "£"
-        formatter.negativePrefix = "£"
+        formatter.positivePrefix = monetaryUnit
+        formatter.negativePrefix = monetaryUnit
         return formatter.string(from: decimal) ?? "0"
     }
     

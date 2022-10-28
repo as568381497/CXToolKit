@@ -205,6 +205,7 @@
 		567A01A328E43C5300965B2E /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				56F3F0CD290BBF53001C3547 /* Alert */,
 				567A01A828E43EC700965B2E /* RadioButtonView */,
 			);
 			path = Component;
@@ -232,8 +233,6 @@
 			isa = PBXGroup;
 			children = (
 				56F3F0BC290A6E0A001C3547 /* BaseViewController.swift */,
-				56F3F0C2290A6FDE001C3547 /* AppAlertInputViewController.swift */,
-				56F3F0C4290A73E7001C3547 /* AppAlertViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -263,6 +262,15 @@
 				56F3F0CB290A7B4A001C3547 /* AppMessageCenter.swift */,
 			);
 			path = Center;
+			sourceTree = "<group>";
+		};
+		56F3F0CD290BBF53001C3547 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				56F3F0C2290A6FDE001C3547 /* AppAlertInputViewController.swift */,
+				56F3F0C4290A73E7001C3547 /* AppAlertViewController.swift */,
+			);
+			path = Alert;
 			sourceTree = "<group>";
 		};
 		6B3C434CCD1B07861B254F0E /* Frameworks */ = {
