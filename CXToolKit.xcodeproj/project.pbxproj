@@ -22,6 +22,12 @@
 		567A01AD28E43EC700965B2E /* RadioButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 567A01A928E43EC700965B2E /* RadioButtonCell.xib */; };
 		567A01AF28E43EC700965B2E /* RadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A01AB28E43EC700965B2E /* RadioButtonView.swift */; };
 		567A01B028E43EC700965B2E /* RadioButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A01AC28E43EC700965B2E /* RadioButtonCell.swift */; };
+		56CB93502930B9420033E75E /* TitileTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56CB934E2930B9420033E75E /* TitileTextField.xib */; };
+		56CB93512930B9420033E75E /* TitileTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CB934F2930B9420033E75E /* TitileTextField.swift */; };
+		56CB93542930BA2F0033E75E /* TextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CB93522930BA2F0033E75E /* TextCollectionViewCell.swift */; };
+		56CB93552930BA2F0033E75E /* TextCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56CB93532930BA2F0033E75E /* TextCollectionViewCell.xib */; };
+		56CB93592930BB120033E75E /* BuMessageInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56CB93572930BB120033E75E /* BuMessageInput.xib */; };
+		56CB935A2930BB120033E75E /* BuMessageInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CB93582930BB120033E75E /* BuMessageInput.swift */; };
 		56F3F0AD290A548B001C3547 /* NSAttributedStringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0AC290A548B001C3547 /* NSAttributedStringUtils.swift */; };
 		56F3F0AF290A54DD001C3547 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0AE290A54DD001C3547 /* DateUtils.swift */; };
 		56F3F0B1290A5508001C3547 /* DoubleUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3F0B0290A5508001C3547 /* DoubleUtils.swift */; };
@@ -81,6 +87,12 @@
 		567A01A928E43EC700965B2E /* RadioButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadioButtonCell.xib; sourceTree = "<group>"; };
 		567A01AB28E43EC700965B2E /* RadioButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButtonView.swift; sourceTree = "<group>"; };
 		567A01AC28E43EC700965B2E /* RadioButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButtonCell.swift; sourceTree = "<group>"; };
+		56CB934E2930B9420033E75E /* TitileTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitileTextField.xib; sourceTree = "<group>"; };
+		56CB934F2930B9420033E75E /* TitileTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitileTextField.swift; sourceTree = "<group>"; };
+		56CB93522930BA2F0033E75E /* TextCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCollectionViewCell.swift; sourceTree = "<group>"; };
+		56CB93532930BA2F0033E75E /* TextCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextCollectionViewCell.xib; sourceTree = "<group>"; };
+		56CB93572930BB120033E75E /* BuMessageInput.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuMessageInput.xib; sourceTree = "<group>"; };
+		56CB93582930BB120033E75E /* BuMessageInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuMessageInput.swift; sourceTree = "<group>"; };
 		56F3F0AC290A548B001C3547 /* NSAttributedStringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringUtils.swift; sourceTree = "<group>"; };
 		56F3F0AE290A54DD001C3547 /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 		56F3F0B0290A5508001C3547 /* DoubleUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleUtils.swift; sourceTree = "<group>"; };
@@ -205,6 +217,8 @@
 		567A01A328E43C5300965B2E /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				56CB93562930BB120033E75E /* BuMessageInput */,
+				56CB934D2930B9420033E75E /* TitileTextField */,
 				56F3F0CD290BBF53001C3547 /* Alert */,
 				567A01A828E43EC700965B2E /* RadioButtonView */,
 			);
@@ -219,6 +233,26 @@
 				567A01AC28E43EC700965B2E /* RadioButtonCell.swift */,
 			);
 			path = RadioButtonView;
+			sourceTree = "<group>";
+		};
+		56CB934D2930B9420033E75E /* TitileTextField */ = {
+			isa = PBXGroup;
+			children = (
+				56CB93522930BA2F0033E75E /* TextCollectionViewCell.swift */,
+				56CB93532930BA2F0033E75E /* TextCollectionViewCell.xib */,
+				56CB934E2930B9420033E75E /* TitileTextField.xib */,
+				56CB934F2930B9420033E75E /* TitileTextField.swift */,
+			);
+			path = TitileTextField;
+			sourceTree = "<group>";
+		};
+		56CB93562930BB120033E75E /* BuMessageInput */ = {
+			isa = PBXGroup;
+			children = (
+				56CB93572930BB120033E75E /* BuMessageInput.xib */,
+				56CB93582930BB120033E75E /* BuMessageInput.swift */,
+			);
+			path = BuMessageInput;
 			sourceTree = "<group>";
 		};
 		56F3F0BA290A6DE7001C3547 /* Pages */ = {
@@ -405,8 +439,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56CB93592930BB120033E75E /* BuMessageInput.xib in Resources */,
 				567A017E28E2EF8C00965B2E /* LaunchScreen.storyboard in Resources */,
 				567A017B28E2EF8C00965B2E /* Assets.xcassets in Resources */,
+				56CB93502930B9420033E75E /* TitileTextField.xib in Resources */,
+				56CB93552930BA2F0033E75E /* TextCollectionViewCell.xib in Resources */,
 				567A017928E2EF8C00965B2E /* Main.storyboard in Resources */,
 				567A01AD28E43EC700965B2E /* RadioButtonCell.xib in Resources */,
 			);
@@ -539,6 +576,7 @@
 				56159EBE2907E3AF0084275F /* UIColorUtils.swift in Sources */,
 				56F3F0AD290A548B001C3547 /* NSAttributedStringUtils.swift in Sources */,
 				56F3F0B5290A5D90001C3547 /* ViewUtils.swift in Sources */,
+				56CB935A2930BB120033E75E /* BuMessageInput.swift in Sources */,
 				567A017628E2EF8C00965B2E /* ViewController.swift in Sources */,
 				56F3F0C1290A6E84001C3547 /* UIViewControllerUtils.swift in Sources */,
 				56F3F0B9290A6C08001C3547 /* UILabelUtils.swift in Sources */,
@@ -548,12 +586,14 @@
 				56F3F0C9290A75F6001C3547 /* NSLayoutConstraintUtils.swift in Sources */,
 				567A017228E2EF8C00965B2E /* AppDelegate.swift in Sources */,
 				56F3F0C5290A73E7001C3547 /* AppAlertViewController.swift in Sources */,
+				56CB93512930B9420033E75E /* TitileTextField.swift in Sources */,
 				56F3F0AF290A54DD001C3547 /* DateUtils.swift in Sources */,
 				56F3F0B7290A6A7F001C3547 /* UIScrollViewUtils.swift in Sources */,
 				567A01AF28E43EC700965B2E /* RadioButtonView.swift in Sources */,
 				567A017428E2EF8C00965B2E /* SceneDelegate.swift in Sources */,
 				567A01B028E43EC700965B2E /* RadioButtonCell.swift in Sources */,
 				56F3F0B3290A5574001C3547 /* StringUtils.swift in Sources */,
+				56CB93542930BA2F0033E75E /* TextCollectionViewCell.swift in Sources */,
 				56F3F0B1290A5508001C3547 /* DoubleUtils.swift in Sources */,
 				56F3F0CC290A7B4A001C3547 /* AppMessageCenter.swift in Sources */,
 				56161FCC28E6EA3B0053D759 /* UIImageUtils.swift in Sources */,

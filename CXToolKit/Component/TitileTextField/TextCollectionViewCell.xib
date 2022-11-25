@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TextCollectionViewCell" id="gTV-IL-0wX" customClass="TextCollectionViewCell" customModule="CXToolKit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="269" height="126"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="269" height="126"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60s-uQ-H4L">
+                        <rect key="frame" x="8" y="2" width="253" height="122"/>
+                        <string key="text">This is a restaurant with Chinese characterstics. There  ar hangbang dishes and Bebang dishes in it. The taste is light  and suitable for everyone. Online ordering can also be free of dilivery fee. The service is considerate and ...</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="60s-uQ-H4L" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="ILk-vO-aeM"/>
+                <constraint firstAttribute="trailing" secondItem="60s-uQ-H4L" secondAttribute="trailing" constant="8" id="J16-GG-c6j"/>
+                <constraint firstAttribute="bottom" secondItem="60s-uQ-H4L" secondAttribute="bottom" constant="2" id="czm-x3-M6U"/>
+                <constraint firstItem="60s-uQ-H4L" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="2" id="hit-xl-O29"/>
+            </constraints>
+            <size key="customSize" width="269" height="126"/>
+            <connections>
+                <outlet property="textLab" destination="60s-uQ-H4L" id="3AA-BY-J8c"/>
+            </connections>
+            <point key="canvasLocation" x="-42.753623188405797" y="74.330357142857139"/>
+        </collectionViewCell>
+    </objects>
+</document>
